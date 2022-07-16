@@ -111,6 +111,8 @@ body {
   display: flex;
 }
 .main-conteiner .bottom-side .left-side {
+  overflow-x: hidden;
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
   width: 12%;

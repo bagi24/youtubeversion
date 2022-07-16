@@ -130,6 +130,9 @@ body {
     display: flex;
 
     .left-side {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    
       display: flex;
       flex-direction: column;
 
@@ -271,6 +274,7 @@ body {
           margin-left: 100px;
           align-items: center;
           margin-top: 15px;
+          
 
           .videos {
             display: flex;
