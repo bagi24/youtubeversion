@@ -1,19 +1,21 @@
+body {
+  background-color: #323232;
+}
+
 .main-conteiner {
-  border: 3px solid black;
   display: flex;
   flex-direction: column;
 }
 .main-conteiner .top-side {
-  border: 2px solid red;
   display: flex;
 }
 .main-conteiner .top-side .top-nav {
-  border: 3px solid green;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #323232;
+  border-bottom: 1px solid gray;
 }
 .main-conteiner .top-side .top-nav .top-youtubelogo {
   display: flex;
@@ -28,7 +30,6 @@
 .main-conteiner .top-side .top-nav .top-youtubelogo .youlogo {
   display: flex;
   justify-content: center;
-  border: 2px solid blue;
   align-items: center;
   position: relative;
   margin-left: 20px;
@@ -87,7 +88,6 @@
   display: flex;
   align-items: center;
   width: 10%;
-  border: 2px solid brown;
   justify-content: space-between;
 }
 .main-conteiner .top-side .top-nav .notification .fa-folder-plus {
@@ -113,7 +113,6 @@
 .main-conteiner .bottom-side .left-side {
   display: flex;
   flex-direction: column;
-  border: 2px solid green;
   width: 12%;
   background-color: #323232;
 }
@@ -123,6 +122,16 @@
 .main-conteiner .bottom-side .left-side .home .list {
   list-style-type: none;
   padding: 0px;
+}
+.main-conteiner .bottom-side .left-side .home .list .n11 {
+  background-color: rgb(92, 90, 90);
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.main-conteiner .bottom-side .left-side .home .list .n11 .pn1 {
+  align-items: center;
+  margin-left: 22px;
 }
 .main-conteiner .bottom-side .left-side .home .list .n1 {
   display: flex;
@@ -165,4 +174,84 @@
 .main-conteiner .bottom-side .left-side .text .lasttext {
   color: gray;
   font-size: 13px;
+}
+.main-conteiner .bottom-side .right-side {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.main-conteiner .bottom-side .right-side .meniu {
+  display: flex;
+  width: 100%;
+  background-color: #323232;
+}
+.main-conteiner .bottom-side .right-side .meniu .meniu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-conteiner .bottom-side .right-side .meniu .meniu-list .btn-meniu1 {
+  background-color: white;
+  display: flex;
+  border-radius: 80px;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  width: 50px;
+  height: 30px;
+}
+.main-conteiner .bottom-side .right-side .meniu .meniu-list .btn-meniu {
+  border-radius: 50px;
+  height: 35px;
+  align-items: center;
+  background-color: #5c5a5a;
+  justify-content: center;
+}
+.main-conteiner .bottom-side .right-side .meniu .meniu-list .btn-meniu .li-meniu {
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+.main-conteiner .bottom-side .right-side .meniu .meniu-list .btn-meniu .pmeniu {
+  align-items: center;
+  height: 5px;
+  justify-content: center;
+  color: white;
+  margin: 0px;
+}
+.main-conteiner .bottom-side .right-side .backround {
+  background-color: black;
+}
+.main-conteiner .bottom-side .right-side .backround .videos-part {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  align-items: center;
+  margin-top: 15px;
+}
+.main-conteiner .bottom-side .right-side .backround .videos-part .videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-conteiner .bottom-side .right-side .backround .videos-part .videos .video1 {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: center;
+}
+.main-conteiner .bottom-side .right-side .backround .videos-part .videos .video1 .img-1 {
+  width: 350px;
+  height: 200px;
+}
+.main-conteiner .bottom-side .right-side .backround .videos-part .videos .video1 .img-2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+.main-conteiner .bottom-side .right-side .backround .videos-part .videos .video1 .pp {
+  color: white;
 }/*# sourceMappingURL=style.css.map */

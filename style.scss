@@ -1,20 +1,20 @@
+body {
+  background-color: #323232;
+}
 .main-conteiner {
-  border: 3px solid black;
   display: flex;
   flex-direction: column;
-  
 
   .top-side {
-    border: 2px solid red;
     display: flex;
 
     .top-nav {
-      border: 3px solid green;
       width: 100%;
       display: flex;
       align-items: center;
       justify-content: space-between;
       background-color: #323232;
+      border-bottom: 1px solid gray;
 
       .top-youtubelogo {
         display: flex;
@@ -30,7 +30,7 @@
         .youlogo {
           display: flex;
           justify-content: center;
-          border: 2px solid blue;
+
           align-items: center;
           position: relative;
           margin-left: 20px;
@@ -99,7 +99,7 @@
         display: flex;
         align-items: center;
         width: 10%;
-        border: 2px solid brown;
+
         justify-content: space-between;
 
         .fa-folder-plus {
@@ -128,91 +128,181 @@
 
   .bottom-side {
     display: flex;
-    
 
     .left-side {
-        display: flex;
-        flex-direction: column;
-        border: 2px solid green;
-        width: 12%;
-        background-color: #323232;
+      display: flex;
+      flex-direction: column;
+
+      width: 12%;
+      background-color: #323232;
       .home {
-        
-border-bottom:  1px solid gray;
+        border-bottom: 1px solid gray;
         .list {
-            list-style-type: none;
-            padding: 0px;
-            
+          list-style-type: none;
+          padding: 0px;
+
+          .n11 {
+            background-color: rgb(92, 90, 90);
+            display: flex;
+            align-items: center;
+            color: white;
+
+            .pn1 {
+              align-items: center;
+              margin-left: 22px;
+            }
+          }
 
           .n1 {
             display: flex;
             align-items: center;
             color: white;
-           
 
             .pn1 {
-                align-items: center;
-                margin-left: 22px;
+              align-items: center;
+              margin-left: 22px;
             }
           }
         }
       }
 
-.subscriptions {
-    
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    border-bottom: 1px solid gray;
+      .subscriptions {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        border-bottom: 1px solid gray;
 
-    h5 {
-        color: gray;
-        margin: 0px;
+        h5 {
+          color: gray;
+          margin: 0px;
+        }
+
+        .list2 {
+          list-style-type: none;
+          padding: 0px;
+
+          .n2 {
+            display: flex;
+            align-items: center;
+            color: white;
+            margin: 0px;
+
+            .img2 {
+              width: 20px;
+              height: 20px;
+              border-radius: 50px;
+            }
+          }
+
+          .pn2 {
+            font-size: 14px;
+            margin-left: 22px;
+          }
+        }
+      }
+
+      .text {
+        .lasttext {
+          color: gray;
+          font-size: 13px;
+        }
+      }
     }
 
-.list2 {
-    list-style-type: none;
-    padding: 0px;
+    .right-side {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
 
-.n2 {
-display: flex;
-align-items: center;
-color: white;
-margin: 0px;
+      .meniu {
+        display: flex;
 
-.img2 {
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
-}
+        width: 100%;
+        background-color: #323232;
 
-}
+        .meniu-list {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          align-items: center;
+          justify-content: space-between;
 
-.pn2 {
-font-size: 14px;
-margin-left: 22px;
+          .btn-meniu1 {
+            background-color: white;
+            display: flex;
+            border-radius: 80px;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            width: 50px;
+            height: 30px;
+          }
 
-}
+          .btn-meniu {
+            border-radius: 50px;
+            height: 35px;
 
-}
+            align-items: center;
+            background-color: #5c5a5a;
+            justify-content: center;
+            .li-meniu {
+              list-style-type: none;
+              align-items: center;
 
+              justify-content: center;
+            }
 
-}
+            .pmeniu {
+              align-items: center;
+              height: 5px;
+              justify-content: center;
+              color: white;
+              margin: 0px;
+            }
+          }
+        }
+      }
+      .backround {
+        background-color: black;
+        .videos-part {
+          display: flex;
+          flex-direction: column;
+          margin-left: 100px;
+          align-items: center;
+          margin-top: 15px;
 
-.text {
+          .videos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-    .lasttext{
-        color: gray;
-        font-size: 13px;
+            .video1 {
+              display: flex;
+              flex-direction: column;
+
+              padding: 5px;
+
+              justify-content: center;
+
+              .img-1 {
+                width: 350px;
+                height: 200px;
+              }
+
+              .img-2 {
+                height: 40px;
+                width: 40px;
+                border-radius: 50px;
+              }
+
+              .pp {
+                color: white;
+              }
+            }
+          }
+        }
+      }
     }
-
-}
-
-
-
-      
-    }
-
-    
   }
 }
