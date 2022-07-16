@@ -1,0 +1,131 @@
+.main-conteiner {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+
+  .top-side {
+    border: 2px solid red;
+    display: flex;
+
+    .top-nav {
+      border: 3px solid green;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #323232;
+
+      .top-youtubelogo {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+
+        .fa-bars {
+          font-size: 15px;
+          color: white;
+        }
+
+        .youlogo {
+          display: flex;
+          justify-content: center;
+          border: 2px solid blue;
+          align-items: center;
+          position: relative;
+          margin-left: 20px;
+          color: red;
+          font-size: 20px;
+
+          .fa-youtube {
+            display: flex;
+            align-items: center;
+          }
+
+          .pyou {
+            color: white;
+            font-size: 17px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+
+          .GE {
+            align-items: center;
+            font-size: 10px;
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 100px;
+            color: #aaa;
+          }
+        }
+      }
+
+      .search-function {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .input1 {
+          width: 400px;
+          height: 25px;
+        }
+
+        .btn1 {
+          color: white;
+          background-color: #5c5a5a;
+          align-items: center;
+          height: 35px;
+          width: 50px;
+          .fa-magnifying-glass {
+        
+            font-size: 15px;
+          }
+        }
+
+        .btn2 {
+          align-items: center;
+          background-color: black;
+          color: white;
+          width: 35px;
+          height: 35px;
+          border-radius: 50px;
+          margin-left: 10px;
+
+          .fa-microphone {
+            font-size: 15px;
+           
+        
+          }
+        }
+      }
+
+      .notification {
+        display: flex;
+        align-items: center;
+        width: 10%;
+        border: 2px solid brown;
+        justify-content: space-between;
+
+        .fa-folder-plus {
+          font-size: 17px;
+          color: white;
+        }
+
+        .fa-braille {
+          font-size: 17px;
+          color: white;
+        }
+
+        .fa-bell {
+          font-size: 17px;
+          color: white;
+        }
+
+        .gmail {
+          width: 28px;
+          height: 28px;
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+}
