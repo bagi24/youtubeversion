@@ -130,9 +130,9 @@ body {
     display: flex;
 
     .left-side {
-        overflow-x: hidden;
-        overflow-y: scroll;
-    
+      overflow-x: hidden;
+      overflow-y: scroll;
+
       display: flex;
       flex-direction: column;
 
@@ -231,10 +231,12 @@ body {
           align-items: center;
           justify-content: space-between;
 
+          list-style-type: none;
+
           .btn-meniu1 {
             background-color: white;
             display: flex;
-            border-radius: 80px;
+            border-radius: 50px;
             align-items: center;
             justify-content: center;
             list-style-type: none;
@@ -244,24 +246,16 @@ body {
 
           .btn-meniu {
             border-radius: 50px;
-            height: 35px;
+            height: 30px;
+            color: white;
 
             align-items: center;
             background-color: #5c5a5a;
             justify-content: center;
             .li-meniu {
-              list-style-type: none;
               align-items: center;
 
               justify-content: center;
-            }
-
-            .pmeniu {
-              align-items: center;
-              height: 5px;
-              justify-content: center;
-              color: white;
-              margin: 0px;
             }
           }
         }
@@ -274,7 +268,6 @@ body {
           margin-left: 100px;
           align-items: center;
           margin-top: 15px;
-          
 
           .videos {
             display: flex;
@@ -289,6 +282,12 @@ body {
 
               justify-content: center;
 
+              .vbt {
+                display: flex;
+                align-items: center;
+                width: 90%;
+              }
+
               .img-1 {
                 width: 350px;
                 height: 200px;
@@ -302,6 +301,7 @@ body {
 
               .pp {
                 color: white;
+                margin-left: 20px;
               }
             }
           }
