@@ -5,6 +5,7 @@ body {
 .main-conteiner {
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
 }
 .main-conteiner .top-side {
   display: flex;
