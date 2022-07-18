@@ -11,7 +11,7 @@ body {
   display: flex;
 }
 .main-conteiner .top-side .top-nav {
-  width: 100%;
+  min-width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -116,7 +116,7 @@ body {
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
-  width: 12%;
+  min-width: 112px;
   background-color: #323232;
 }
 .main-conteiner .bottom-side .left-side .home {
@@ -181,7 +181,6 @@ body {
 .main-conteiner .bottom-side .right-side {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 .main-conteiner .bottom-side .right-side .meniu {
   display: flex;
@@ -234,6 +233,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+.main-conteiner .bottom-side .right-side .backround .videos-part .videos .video-direction {
+  display: flex;
+}
 .main-conteiner .bottom-side .right-side .backround .videos-part .videos .video1 {
   display: flex;
   flex-direction: column;
@@ -257,4 +259,35 @@ body {
 .main-conteiner .bottom-side .right-side .backround .videos-part .videos .video1 .pp {
   color: white;
   margin-left: 20px;
+}
+
+@media only screen and (max-width: 1710px) {
+  .hidden-side {
+    display: none !important;
+  }
+  .list-1 {
+    width: 110px !important;
+  }
+  .n11-1 {
+    align-items: center !important;
+    color: white;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .n11-1 .fa-house {
+    align-items: center;
+  }
+  .n11-1 .pn1-1 {
+    align-items: center;
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .videos-1 {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .videos-part {
+    margin: 0px !important;
+  }
 }/*# sourceMappingURL=style.css.map */
