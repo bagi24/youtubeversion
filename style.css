@@ -9,6 +9,7 @@ body {
 }
 .main-conteiner .top-side {
   display: flex;
+  min-width: 100%;
 }
 .main-conteiner .top-side .top-nav {
   min-width: 100%;
@@ -88,7 +89,7 @@ body {
 .main-conteiner .top-side .top-nav .notification {
   display: flex;
   align-items: center;
-  width: 10%;
+  min-width: 100px;
   justify-content: space-between;
 }
 .main-conteiner .top-side .top-nav .notification .fa-folder-plus {
@@ -184,16 +185,17 @@ body {
 }
 .main-conteiner .bottom-side .right-side .meniu {
   display: flex;
-  width: 100%;
+  min-width: 100%;
   background-color: #323232;
 }
 .main-conteiner .bottom-side .right-side .meniu .meniu-list {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  min-width: 100%;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 .main-conteiner .bottom-side .right-side .meniu .meniu-list .btn-meniu1 {
@@ -289,5 +291,18 @@ body {
   }
   .videos-part {
     margin: 0px !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .top-nav {
+    min-width: 900px !important;
+  }
+  .main-conteiner {
+    min-width: 600px !important;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .notification {
+    margin-right: 30px !important;
   }
 }/*# sourceMappingURL=style.css.map */
