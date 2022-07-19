@@ -65,10 +65,13 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        
 
         .input1 {
-          width: 400px;
-          height: 25px;
+          width: 500px;
+          height: 31px;
+          background-color:black;
+          border-style: none;
         }
 
         .btn1 {

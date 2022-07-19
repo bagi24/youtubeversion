@@ -61,8 +61,10 @@ body {
   justify-content: center;
 }
 .main-conteiner .top-side .top-nav .search-function .input1 {
-  width: 400px;
-  height: 25px;
+  width: 500px;
+  height: 31px;
+  background-color: black;
+  border-style: none;
 }
 .main-conteiner .top-side .top-nav .search-function .btn1 {
   color: white;
